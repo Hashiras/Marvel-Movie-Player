@@ -33,13 +33,6 @@ namespace Movie_Player.Model
         public string Title { get; }
         public string PosterPath { get;}
         public string MoviePath { get;}
-
-        public enum FileExtension
-        {
-            mp4,
-            mkv,
-            avi
-        }
     }
 
     public enum FileExtension
