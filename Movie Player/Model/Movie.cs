@@ -41,4 +41,11 @@ namespace Movie_Player.Model
             avi
         }
     }
+
+    public enum FileExtension
+    {
+        mp4,
+        mkv,
+        avi
+    }
 }
