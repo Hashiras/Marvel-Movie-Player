@@ -20,9 +20,23 @@ namespace Movie_Player.Model
             this.PosterPath = PosterPath;
             this.MoviePath = Path.Combine(Application.StartupPath, "Media", EntryNumber + ".mp4");
         }
+        public Movie(int EntryNumber, string Title, string PosterPath, FileExtension FileExtension)
+        {
+            this.EntryNumber = EntryNumber;
+            this.Title = Title;
+            this.PosterPath = PosterPath;
+            this.MoviePath = Path.Combine(Application.StartupPath, "Media", EntryNumber + "." + FileExtension.ToString());
+        }
         public int EntryNumber { get;}
         public string Title { get; }
         public string PosterPath { get;}
         public string MoviePath { get;}
+    }
+
+    public enum FileExtension
+    {
+        mp4,
+        mkv,
+        avi
     }
 }
