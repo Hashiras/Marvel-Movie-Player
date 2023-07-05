@@ -361,9 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/Movie Player/Media/1.mp4
-/Movie Player/Media/1.srt
-/Movie Player/Media/21.mp4
-/Movie Player/Media/21.srt
-.mp4
-.srt
+*.mp4
+*.mkv
+*.avi
+*.srt
