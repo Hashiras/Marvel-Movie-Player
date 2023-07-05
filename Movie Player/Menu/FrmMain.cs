@@ -62,11 +62,6 @@ namespace Movie_Player.Menu
             };
         }
 
-        private void FrmMain_Load(object sender, EventArgs e)
-        {
-            LoadList(false);
-        }
-
         private void NewForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Show();
@@ -99,6 +94,9 @@ namespace Movie_Player.Menu
             }
         }
 
-
+        private void FrmMain_Shown(object sender, EventArgs e)
+        {
+            LoadList(false);
+        }
     }
 }

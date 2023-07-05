@@ -147,8 +147,8 @@ namespace Movie_Player.Menu
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Jarvis | Main Menu";
-            this.Load += new System.EventHandler(this.FrmMain_Load);
+            this.Text = "Marvellysa | Main Menu";
+            this.Shown += new System.EventHandler(this.FrmMain_Shown);
             this.Resize += new System.EventHandler(this.FrmMain_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
